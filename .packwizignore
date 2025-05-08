@@ -1,0 +1,10 @@
+.direnv/
+multimc-files/
+/result
+/.gitattributes
+/.gitignore
+/.editorconfig
+/.envrc
+/README.md
+/flake.lock
+/flake.nix
