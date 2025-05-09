@@ -1,5 +1,5 @@
 {
-  description = "Minecraft create modpack using fabric";
+  description = "Minecraft create modpack";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
@@ -28,20 +28,20 @@
         mkMultiMCPack
         ;
     in rec {
-      modpack = fetchPackwizModpack {
+      server = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
-        hash = "sha256-cA8W3+D/UGK9mEqkQ9Y3JrPBpZFa/DI93oPXjH4pnZw=";
+        hash = "sha256-RHFuRb2ZKmkLabIOJE2CzeenvHq97m0YPkQXSICGUMo=";
       };
 
-      modpack-zip = mkMultiMCPack {
-        src = modpack;
+      client = mkMultiMCPack {
+        src = server;
         instanceCfg = ./multimc-files/instance.cfg;
         extraFiles = {
           "mmc-pack.json" = ./multimc-files/mmc-pack.json;
         };
       };
 
-      default = modpack-zip;
+      default = client;
     });
 
     devShells = eachSystem ({pkgs, ...}: {
