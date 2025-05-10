@@ -20,8 +20,10 @@
           inherit system;
           pkgs = import nixpkgs {inherit system;};
         });
-  in {
-    packages = eachSystem ({system, ...}: let
+    mkPackages = {
+      system,
+      pkgs,
+    }: let
       inherit
         (packwiz2nix.lib.${system})
         fetchPackwizModpack
@@ -42,8 +44,15 @@
       };
 
       default = client;
-    });
-
+    };
+  in {
+    overlay = final: prev:
+      mkPackages {
+        pkgs = prev;
+        system = prev.system;
+      };
+    overlays.default = self.overlay;
+    packages = eachSystem mkPackages;
     devShells = eachSystem ({pkgs, ...}: {
       default = pkgs.mkShell {
         buildInputs = with pkgs; [
