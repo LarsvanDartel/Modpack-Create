@@ -20,30 +20,46 @@
           inherit system;
           pkgs = import nixpkgs {inherit system;};
         });
-  in {
-    packages = eachSystem ({system, ...}: let
+    mkPackages = {
+      system,
+      pkgs,
+    }: let
       inherit
         (packwiz2nix.lib.${system})
         fetchPackwizModpack
         mkMultiMCPack
         ;
     in rec {
-      modpack = fetchPackwizModpack {
+      server = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
-        hash = "sha256-cA8W3+D/UGK9mEqkQ9Y3JrPBpZFa/DI93oPXjH4pnZw=";
+        hash = "sha256-EJKJ8LN9aCqWGXBw3FcObZdyl0kCk+KXfF4i528FyHc=";
+        side = "server";
       };
 
-      modpack-zip = mkMultiMCPack {
-        src = modpack;
+      client = fetchPackwizModpack {
+        manifest = "${self}/pack.toml";
+        hash = "sha256-bOKLp3KvjKAFrue7Q9FyTkXQ11rzLhhX+w5+N0Go5h4=";
+        side = "client";
+      };
+
+      client-instance = mkMultiMCPack {
+        src = client;
         instanceCfg = ./multimc-files/instance.cfg;
         extraFiles = {
           "mmc-pack.json" = ./multimc-files/mmc-pack.json;
         };
       };
 
-      default = modpack-zip;
-    });
-
+      default = client;
+    };
+  in {
+    overlay = final: prev:
+      mkPackages {
+        pkgs = prev;
+        system = prev.system;
+      };
+    overlays.default = self.overlay;
+    packages = eachSystem mkPackages;
     devShells = eachSystem ({pkgs, ...}: {
       default = pkgs.mkShell {
         buildInputs = with pkgs; [
