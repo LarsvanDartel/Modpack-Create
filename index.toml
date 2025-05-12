@@ -21,6 +21,11 @@ hash = "a64fd77827cfe582e2ad434fbf5fd6a70450796c191525cab9ea33d42e98a212"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "41a3dc271859b118417946d2fdb2408523563b2f4f49048073672a342fb1aebf"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "15385164e2cd07cce7493a10d6d87df5c7bce587a866613126be3b54b6b28fc7"
 metafile = true
@@ -57,17 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/create_oxidized.pw.toml"
-hash = "efa23ff6062ef28df1983e6af3fe059ddcc514cb6f3dad4392150da548c56720"
-metafile = true
-
-[[files]]
-file = "mods/cubes-without-borders.pw.toml"
-hash = "5944ed5a779d142aea9ccd8c466a20fa3d9233a29f2be1e5ae54fc15f5edd57e"
-metafile = true
-
-[[files]]
-file = "mods/easy-elytra-takeoff.pw.toml"
-hash = "f1235ef1fba62a9816767888b8f0149732e020382d28baad512405c2cafb2886"
+hash = "a0c0ebf3ab1c147a7196d98ec8eb2afb70454d0cac4ddc556478dd3aa38e8dab"
 metafile = true
 
 [[files]]
@@ -113,11 +108,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
-metafile = true
-
-[[files]]
-file = "mods/forge-config-api-port.pw.toml"
-hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
 metafile = true
 
 [[files]]
@@ -186,11 +176,6 @@ hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
 metafile = true
 
 [[files]]
-file = "mods/polymorph.pw.toml"
-hash = "8293786ca23e23e7dd04d60d666f34145a00229a5959f7a1962995654cacdf1f"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "4a7d1e46795d2d83b18db85d8dbc63740a1d337e12d2b9e550378de59f2b23ab"
 metafile = true
@@ -231,16 +216,6 @@ hash = "9b51c35206dd74dac90e3cc3f2ff9e1c45552500e6a01be183bc64260a0e5815"
 metafile = true
 
 [[files]]
-file = "mods/txnilib.pw.toml"
-hash = "aaa4777fa08ae6054753e654effa299f31252499709838b87a99cbea56bcee3e"
-metafile = true
-
-[[files]]
-file = "mods/villager-names-serilum.pw.toml"
-hash = "3cfc1070e53b96ec42fadea40770178eb4a2fdb50246879f570b164c2eb7b197"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "a2f8f9c0410885c429945a8e5142a3b4bbaa63bf147f9b2fdd035113b404344f"
 metafile = true
@@ -248,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "d5763cae561c3c23d431275e5d930a43bae2cc8e71f39a50a1b3d15b70a5b3f5"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "9509a3f9d500e733aa8a0271f97a437799437f140383de4ca8ae44c1846df99c"
 metafile = true
 
 [[files]]
