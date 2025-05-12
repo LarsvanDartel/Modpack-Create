@@ -28,13 +28,13 @@
       server = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
         side = "server";
-        hash = "sha256-Vovz1erZU+pVGFRtdi9fol4FNLjpJThBWOzj6LVA8qY=";
+        hash = "sha256-bTV7or7qNBCUTGngsWhflpvnWwTDc37rVJOvImC3xYs=";
       };
 
       client = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
         side = "client";
-        hash = "sha256-CU8XTR/S7XrxP0GFUz9PanMOwGtvIq/W/7/az4ePAn4=";
+        hash = "sha256-gBfFKrs40lde/F+t8TefEZNngfuslCB86DMjfHKPyS8=";
       };
 
       client-instance = mkMultiMCPack {

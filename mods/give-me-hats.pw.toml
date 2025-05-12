@@ -1,0 +1,13 @@
+name = "Give Me Hats!"
+filename = "givemehats-3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QrLG6byX/versions/2PREtLxS/givemehats-3.0.2.jar"
+hash-format = "sha512"
+hash = "ec625b8a88c42d4cf871514be86900d2d69d4b78d3586ff8aae2bce3bb0f969aa181a81b78ea5d12196650d8199e10ae181b58fab66b1c38bbbd32315d7d8df9"
+
+[update]
+[update.modrinth]
+mod-id = "QrLG6byX"
+version = "2PREtLxS"

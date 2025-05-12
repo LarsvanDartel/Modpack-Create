@@ -1,0 +1,13 @@
+name = "Better McDonald's Mod"
+filename = "better-mcdonalds-mod-fabric-1.20.1-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kdnePgr1/versions/2vdkSoEh/better-mcdonalds-mod-fabric-1.20.1-3.1.0.jar"
+hash-format = "sha512"
+hash = "f00d3cc77cd55210a3e1482e09954a95127f0b9a2f0863586946f55818e6a10ddc74d7b24482192f6bdb3865c73f9031e7d96a0b30a1302ba2b91e8684c29f04"
+
+[update]
+[update.modrinth]
+mod-id = "kdnePgr1"
+version = "2vdkSoEh"

@@ -1,0 +1,13 @@
+name = "Create: Missions"
+filename = "missions-fabric-0.4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KN33kvHF/versions/2CyQnPh4/missions-fabric-0.4.3.jar"
+hash-format = "sha512"
+hash = "45034c0ee2b33c754d7c868e5c947dee0ed44ce310dfa06042d6c3a7c719fb6829673940c8b263eb3ffbe58372d6a9a7e1a5492bfdd5ac068f62b373300896a7"
+
+[update]
+[update.modrinth]
+mod-id = "KN33kvHF"
+version = "2CyQnPh4"

@@ -1,0 +1,13 @@
+name = "Create: Blazing Hot"
+filename = "create_blazing_hot-0.6.4b+fabric-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LmT6oZrX/versions/Ne13atvt/create_blazing_hot-0.6.4b%2Bfabric-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "1b8d657580899174bd36211a121cae59fa190dd86ae772dd5b97a6047a1d192864f3866cd438d3eb77e76926ec5474ab30051d7eb86e732724d29fdf7d4be7d9"
+
+[update]
+[update.modrinth]
+mod-id = "LmT6oZrX"
+version = "Ne13atvt"

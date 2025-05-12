@@ -1,0 +1,13 @@
+name = "Create: Ultimate Factory [Forge/Fabric/NeoForge]"
+filename = "create_ultimate_factory-1.9.0-fabric-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/N9QToVpw/versions/ilaQZdXE/create_ultimate_factory-1.9.0-fabric-1.20.1.jar"
+hash-format = "sha512"
+hash = "ce8d7df3ca558ec362fda8d9168a005d225390babf92c9ebb8e26efebbb60ea13619913b65600a2a333c788612388d822c191c970b2c92f9096ea2bbe28a379c"
+
+[update]
+[update.modrinth]
+mod-id = "N9QToVpw"
+version = "ilaQZdXE"

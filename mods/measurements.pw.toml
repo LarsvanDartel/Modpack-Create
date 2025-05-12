@@ -1,0 +1,13 @@
+name = "Measurements"
+filename = "Measurements-fabric-1.20.1-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wLINU2AB/versions/xfpPYKlL/Measurements-fabric-1.20.1-2.0.1.jar"
+hash-format = "sha512"
+hash = "40def8140599b25fe6a925beaa1c174b0ad602b41530f9beb1ecbf01a36abdf5934135ce5c9fdbb07bfddea126493cfd1f0e21661a376ccb8b5dd0aadd57a743"
+
+[update]
+[update.modrinth]
+mod-id = "wLINU2AB"
+version = "xfpPYKlL"

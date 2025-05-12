@@ -1,0 +1,13 @@
+name = "AzureDooms Angel Ring"
+filename = "doomangelring-fabric-1.20.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VpVrx0oi/versions/bgju7tuP/doomangelring-fabric-1.20.1-3.0.1.jar"
+hash-format = "sha512"
+hash = "c063c7b1ce903fc19d30c16a90676771213a98607b52e250292d7d215f00aac9577f4d07f67906e78e583b9000ceb1bd568521ad54bd6ce7702aa8512f687676"
+
+[update]
+[update.modrinth]
+mod-id = "VpVrx0oi"
+version = "bgju7tuP"

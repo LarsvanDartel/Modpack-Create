@@ -1,0 +1,13 @@
+name = "Not Enough Trinket Slots (NETS)"
+filename = "NETS_0.3.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rb85AqQT/versions/34ELChF7/NETS_0.3.5.5.jar"
+hash-format = "sha512"
+hash = "a7b14c86f1ad85d71cfbcd2a26d27a683f6dcccd25f296b9f2577f6163c2e1deb5b37ef805b1a355e1dd5e1df6f1d30d1832ccb2dacbc8bdefa1ca860b1eb6bd"
+
+[update]
+[update.modrinth]
+mod-id = "Rb85AqQT"
+version = "34ELChF7"
