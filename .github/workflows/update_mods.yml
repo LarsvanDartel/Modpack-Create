@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
     - uses: actions/checkout@v4
     - uses: cachix/install-nix-action@v31
@@ -23,8 +24,10 @@ jobs:
     - name: update
       run: nix run nixpkgs#packwiz -- update --all -y
 
-    - name: commit changes
-      uses: EndBug/add-and-commit@v9
+    - name: create pull request
+      uses: peter-evans/create-pull-request@v7
       with:
-        default_author: github_actions
-        message: "chore: update mods"
+        commit-message: "chore: update mods"
+        branch: "chore/update"
+        title: Update mods
+        body:
