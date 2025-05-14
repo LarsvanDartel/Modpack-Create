@@ -16,14 +16,9 @@
   }: let
     eachSystem = f:
       nixpkgs.lib.genAttrs nixpkgs.lib.systems.flakeExposed (system:
-        f {
-          inherit system;
-          pkgs = import nixpkgs {inherit system;};
-        });
-    mkPackages = {
-      system,
-      pkgs,
-    }: let
+        f (import nixpkgs {inherit system;}));
+    mkPackages = pkgs: let
+      inherit (pkgs) system;
       inherit
         (packwiz2nix.lib.${system})
         fetchPackwizModpack
@@ -32,14 +27,14 @@
     in rec {
       server = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
-        hash = "sha256-EJKJ8LN9aCqWGXBw3FcObZdyl0kCk+KXfF4i528FyHc=";
         side = "server";
+        hash = "sha256-o6qjIF3Sa9iGXf/9sOP4dh/+zO2dix84h3En0S2bRXE=";
       };
 
       client = fetchPackwizModpack {
         manifest = "${self}/pack.toml";
-        hash = "sha256-bOKLp3KvjKAFrue7Q9FyTkXQ11rzLhhX+w5+N0Go5h4=";
         side = "client";
+        hash = "sha256-kY2Bf4EkSSm48rVMr5B/tyNlHK7yv8Aw1zqjMqstCY8=";
       };
 
       client-instance = mkMultiMCPack {
@@ -50,14 +45,12 @@
         };
       };
 
-      default = client;
+      default = client-instance;
     };
   in {
-    overlay = final: prev:
-      mkPackages {
-        pkgs = prev;
-        system = prev.system;
-      };
+    overlay = final: prev: {
+      modpack-create = mkPackages prev;
+    };
     overlays.default = self.overlay;
     packages = eachSystem mkPackages;
     devShells = eachSystem ({pkgs, ...}: {

@@ -3,18 +3,11 @@
         {
             "important": true,
             "uid": "net.minecraft",
-            "version": "1.21.4"
+            "version": "1.21.1"
         },
         {
-            "cachedName": "Fabric Loader",
-            "cachedRequires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "cachedVersion": "0.16.14",
-            "uid": "net.fabricmc.fabric-loader",
-            "version": "0.16.14"
+            "uid": "net.neoforged",
+            "version": "21.1.172"
         }
     ],
     "formatVersion": 1
