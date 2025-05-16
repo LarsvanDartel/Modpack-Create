@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "c98af4e7fe5cae8719bda03923e1c517dc52f1ea8b5d6e8d6e58c9d2478ff29c"
+hash = "2f7f7df8c9328e0885ad4447f557ed5d975c6aa704af22633ac8e4c39a519e9d"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "6d7ed1de895d198b2c4959b8f28f63cdcd68d24fda159be860db0c692dc54a3b"
+hash = "03c861a5aaf95301c62aa14c2a96fdb431d43d92339de0f47c4ae62a0fff18d2"
 metafile = true
 
 [[files]]
@@ -342,12 +342,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "73e000d5ed71e3d58084429d4dc7d2dbd63b770ec2a2f238e975e4d6c00d4542"
+hash = "71f50f5be1b94408ab598b5714c6b89a2b4f76b53d8877143d8a136684cba4b4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "28e4c562d898c36e986363599b7335e074ed806355a8fedaf67a27c23441dd2d"
+hash = "fb40bab0573c82735f83e4dba72dc12f6f79933b997e1e19bc8e6345d4959842"
 metafile = true
 
 [[files]]
@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/txnilib.pw.toml"
-hash = "b64cd44b70986cec4f68968cfb55b33a02232521d2fe8b4d44141ef18cdbb150"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
