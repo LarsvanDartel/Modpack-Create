@@ -29,5 +29,5 @@ jobs:
       with:
         commit-message: "chore: update mods"
         branch: "chore/update"
-        title: Update mods
+        title: "chore: update mods"
         body:
