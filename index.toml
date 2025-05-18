@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "a9372a308a54fe0a2c8ea10c547d3eb2846065334c917984ea07a5354b65828b"
+hash = "de40a22d3344ce379793d4d0b311c30f8e4f0d600efc83a17693a16834d4b300"
 metafile = true
 
 [[files]]
@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-addon-compat.pw.toml"
-hash = "3924842cf3b44292248f28d70157a874b402f7980f5531e43990cb55d5bef226"
+hash = "45adba9d0349fb096850c98c8d2a325b1f4b5c3abe64855eec072c6c2e090e14"
 metafile = true
 
 [[files]]

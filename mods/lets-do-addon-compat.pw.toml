@@ -1,13 +1,13 @@
 name = "[Let's Do Addon] Compat"
-filename = "letsdocompat-fabric-2.1.0.jar"
+filename = "letsdocompat-fabric-2.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FNi5IMiX/versions/A6dOac2n/letsdocompat-fabric-2.1.0.jar"
+url = "https://cdn.modrinth.com/data/FNi5IMiX/versions/EV8xWWop/letsdocompat-fabric-2.2.2.jar"
 hash-format = "sha512"
-hash = "1ac4652c90fdfa4d775b7630c41c17902f735754f967b1943375cb11ebfdf1a09c9a69b80f19141f201248e77d2d7b2ee9e78632e8b8f612295cb54c91d7c2ee"
+hash = "25480faf9d023326436187e7997e78c51afc885ee1c259446f61652a2c34aeacd092136edc142374e4052b34a2eafa703f0b9da1404766f93477e7c823467516"
 
 [update]
 [update.modrinth]
 mod-id = "FNi5IMiX"
-version = "A6dOac2n"
+version = "EV8xWWop"
