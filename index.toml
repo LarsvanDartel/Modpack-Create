@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "9e32b9f0e7e8f9d1ddea42f7b0da0b37cfd5fb94a1d19231045fad1f84dc2bf8"
+hash = "bb284b39f1cfb428639413aa073f7d882de8f9c211fc87699dd59a51f84b1ba9"
 metafile = true
 
 [[files]]
@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "0c47d03d8d357331a7d48f1fb498708c5aae3ade57727280aa39c9744dab7c32"
+hash = "f45e67ef5aed8fe046cef40dacceaef028360b05b69525b0d032b0891a847e24"
 metafile = true
 
 [[files]]
@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-addon-compat.pw.toml"
-hash = "45adba9d0349fb096850c98c8d2a325b1f4b5c3abe64855eec072c6c2e090e14"
+hash = "187f524b1d902ceafcb2d8b6675ad9f4cd849dfbbca037777170d5c52e46af47"
 metafile = true
 
 [[files]]
