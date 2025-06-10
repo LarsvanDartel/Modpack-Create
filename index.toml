@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
-hash = "e5473d05c6e3d08c992cecbaa3cb66ed154655c0bfdbb90860b3e4f54a4623ec"
+hash = "8f90a500df28d497fe7e323b40ee55640bc63141284ce2189a7766c976a91378"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "5724ca10bd6d37de46834ab762a46f9ce09175f0a4fa0e2ab633846067940c03"
+hash = "3213c881d019cd8f952f738c10d5a950ee52ff0084750b81f656a58a4a78515d"
 metafile = true
 
 [[files]]
@@ -76,6 +76,11 @@ hash = "9f920c5f1df2577cf374285e4aad4f2982a30ea2a3da1cf7ddaf25e04b3a2e31"
 metafile = true
 
 [[files]]
+file = "mods/construction-sticks.pw.toml"
+hash = "21fb303b6e928b73c77667597720344db89f10d56799adbf06eead49f3a3c7d4"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
 metafile = true
@@ -86,8 +91,13 @@ hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "1d609f597d90c582a01f360cc143ba5c5cd5d62a7336d8d5fd02ca50637f52fb"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
-hash = "57a32028d4bfb72744f5c394d1c30159ff4ee8652155a89b6c4208ffc2de38ef"
+hash = "bf0d029b804c724434ee9415581655fcd6d4d4d8c09625044a755bff510aa914"
 metafile = true
 
 [[files]]
@@ -111,8 +121,13 @@ hash = "60231e01fc1a64f3f0b155738bf5f56e9cb0f84d930b04aac83858357c4deaaf"
 metafile = true
 
 [[files]]
+file = "mods/create-food.pw.toml"
+hash = "6660b26fc5ff33d9d192acf121e5c983a50cfdac93cf5bdd48dd2a603c3f9225"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
-hash = "ca7426603086edec354434f9817fc01dd24d093842b012c79e82d17a7e93329a"
+hash = "09eca8aef96745c2f30d0536ed76904a2342a5f9cbe0745b62ce48f5e4666b4c"
 metafile = true
 
 [[files]]
@@ -122,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-railways-navigator.pw.toml"
-hash = "ebbdce8f5c7d1cfabceba8c521168c6af4b2e83048abf6ca8a2cf28799abd091"
+hash = "c5ffade2f283a235d919ba957f5783fc0f5ca454242c7f0cd71ad600c59c899e"
 metafile = true
 
 [[files]]
@@ -132,12 +147,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimate-factory.pw.toml"
-hash = "885a5e25d8c2d77eefb8b29629019e821e892e7ee1923fb649d3fbf2b69cf1dc"
+hash = "817391c315c423fd86d1cf9eb238dd8b6b84959dd232554d7c95281587e00e4c"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "a4c8371232d9f542b180c7bd7e30d84b9e958b97b24af5dde0759ab8e511fb8e"
+hash = "ff54adc13d204ceacffbf4cacce611bb3c6e7c741a912ee297259a4f1e576e61"
 metafile = true
 
 [[files]]
@@ -182,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "867a029a8bed75bea2fb02e5186730db46ec01f970d0bdb266c6897074c16177"
+hash = "c4027b8071cc6dfc7f0d49e702a5e25b1e36841e50acba1e699f308be156b8f2"
 metafile = true
 
 [[files]]
@@ -202,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "8e5da360e375437a904021af1e7eda56fa14f1d68af363f3b6217763c63d3544"
+hash = "37a1086360571a34cfadd0088cd331b405857c942b5611caafebc27fb8ea1a42"
 metafile = true
 
 [[files]]
@@ -212,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "4a64b09e6b51daa9f1a13b2a3c79999c5d087a01613433d1f79303dcfd0db97f"
+hash = "4d79a25b78e53ae05249011d514a088cebe6df72c236bb657f26fb1aba114d9c"
 metafile = true
 
 [[files]]
@@ -237,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "44634200be079994523f61e1a4b2878f4d2e1b59d52378391aa81192b1d15bf1"
+hash = "e1186ddc953e1446af3ba58cbb80ddd0d2315c1571ed5438f5c03953edf0b656"
 metafile = true
 
 [[files]]
@@ -272,12 +287,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "2119d22a1869118e389237716e0f66bd58c4f3f2b4a0dd1e7558721860afdca7"
+hash = "cac351a2081dc73e6922ea757c1515e4b5d93c40c7a060278975b0de0b5863b8"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "87e3acd7d3cdda6d8c99f26dafd871ba6057b6ca54650b43e6b91939069a91e5"
+hash = "5b81cd94da55977b3fd23ae3cf6cb2f2b09d1c1194b81065a79f1e3e6c725f48"
 metafile = true
 
 [[files]]
@@ -352,12 +367,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3b5081bab7e2c349f65b6d212a25ed8c44f5923a9903aea653e2cdc3333b8e78"
+hash = "f42387952e748d221163fbd5c56b4abb6694967de5cef5aaa35ba21cfe1b0416"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bbc7494636499e59dc94213a45bbe7709f17329a6b98b51a357ca5037b7f29d1"
+hash = "7ae71e84bee179425c8b7b1dbab5e3f58957968d777338b5ecb2d04920189e0b"
 metafile = true
 
 [[files]]

@@ -6,10 +6,6 @@ Packaged using [packwiz](https://packwiz.infra.link), using my custom
 
 ## Todo
 
-- Construction wand (not updated to 1.21.1 yet)
-- Create: Copycats+ (not updated to 1.21.1 yet)
-- Create: Jetpack (not updated to 1.21.1 yet)
 - Create: Numismatics (not updated to 1.21.1 yet)
 - Create: Steam 'n Rails (not updated to 1.21.1 yet)
-- Create: Food (not updated to 1.21.1 yet)
 - Create: Slice & Dice (not updated to 1.21.1 yet)
