@@ -1,13 +1,13 @@
 name = "Just Player Heads"
-filename = "justplayerheads-1.20.1-4.2.jar"
+filename = "justplayerheads-1.20.1-4.4.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/YdVBZMNR/versions/8vQWn1zu/justplayerheads-1.20.1-4.2.jar"
+url = "https://cdn.modrinth.com/data/YdVBZMNR/versions/SKH7IvVg/justplayerheads-1.20.1-4.4.jar"
 hash-format = "sha512"
-hash = "99c61f91e78881068cdcdfb9a9e0fb51b292940fcbb6f2e807d05404b757b4ac7e2f3ecb0eed4a3de2552101f41bf5fd857b7c344f3a5981a984444d215edb78"
+hash = "98c404faa126679da8f021676619645e20ce83bae425d4fa725f95544d0ef3bfba1a03bb663007358ca482952af7d95016c6b5546ba014fc3fbb5ec9ca6599fb"
 
 [update]
 [update.modrinth]
 mod-id = "YdVBZMNR"
-version = "8vQWn1zu"
+version = "SKH7IvVg"

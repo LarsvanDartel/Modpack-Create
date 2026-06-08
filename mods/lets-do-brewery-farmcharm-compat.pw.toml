@@ -1,13 +1,13 @@
 name = "[Let's Do] Brewery - Farm&Charm Compat"
-filename = "letsdo-brewery-fabric-2.0.5.jar"
+filename = "letsdo-brewery-fabric-2.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/b7NV2plI/versions/5yxZCrX8/letsdo-brewery-fabric-2.0.5.jar"
+url = "https://cdn.modrinth.com/data/b7NV2plI/versions/W2QrBsrL/letsdo-brewery-fabric-2.0.6.jar"
 hash-format = "sha512"
-hash = "53721c0c898730a6bcc9921a6c599fff148983693f32f74167d7609ca0771b0e25ac33e32483e3df71129cf1e05eb74151e18f78b66063062e22a5b54a00cd0a"
+hash = "9fe9c809215874453f1f7d832975d0855b0d66e0b8b4933a4182aadeed52899b4b9c49680cd1a7325eefafe72541b3ba6b44e90ee4039b21a6a14ccc7afcff35"
 
 [update]
 [update.modrinth]
 mod-id = "b7NV2plI"
-version = "5yxZCrX8"
+version = "W2QrBsrL"
